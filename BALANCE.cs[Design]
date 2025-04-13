@@ -1,0 +1,140 @@
+namespace ATM_
+{
+    partial class BALANCE
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            textBox5 = new TextBox();
+            button1 = new Button();
+            SuspendLayout();
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.Highlight;
+            textBox1.Font = new Font("Segoe UI Symbol", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(0, 0);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(801, 69);
+            textBox1.TabIndex = 3;
+            textBox1.Text = "          ATM MANAGEMENT SYSTEM";
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = SystemColors.Control;
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Font = new Font("Segoe UI Symbol", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox2.ForeColor = SystemColors.Highlight;
+            textBox2.Location = new Point(85, 134);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(201, 34);
+            textBox2.TabIndex = 4;
+            textBox2.Text = "ACCOUNT NUMBER :";
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = SystemColors.Control;
+            textBox3.BorderStyle = BorderStyle.None;
+            textBox3.Font = new Font("Segoe UI Symbol", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox3.ForeColor = SystemColors.Highlight;
+            textBox3.Location = new Point(85, 202);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(190, 34);
+            textBox3.TabIndex = 5;
+            textBox3.Text = "YOUR BALANCE   :";
+            // 
+            // textBox4
+            // 
+            textBox4.BackColor = SystemColors.Control;
+            textBox4.BorderStyle = BorderStyle.None;
+            textBox4.Font = new Font("Segoe UI Symbol", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox4.ForeColor = SystemColors.Highlight;
+            textBox4.Location = new Point(330, 135);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(172, 34);
+            textBox4.TabIndex = 6;
+            textBox4.Text = "Acc Num";
+            // 
+            // textBox5
+            // 
+            textBox5.BackColor = SystemColors.Control;
+            textBox5.BorderStyle = BorderStyle.None;
+            textBox5.Font = new Font("Segoe UI Symbol", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox5.ForeColor = SystemColors.Highlight;
+            textBox5.Location = new Point(312, 202);
+            textBox5.Multiline = true;
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(172, 34);
+            textBox5.TabIndex = 7;
+            textBox5.Text = "BALANCE   RS";
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.Highlight;
+            button1.Font = new Font("Segoe UI Symbol", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(344, 321);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 36);
+            button1.TabIndex = 28;
+            button1.Text = "log out";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // BALANCE
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(button1);
+            Controls.Add(textBox5);
+            Controls.Add(textBox4);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "BALANCE";
+            Text = "BALANCE";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+        private Button button1;
+    }
+}
